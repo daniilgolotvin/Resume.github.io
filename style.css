@@ -16,9 +16,9 @@
 }
 
 body {
-  background-color: #e9ebee;
+  /* background-color: #ed9a11; */
+  background-color: #1f1f1f;
 }
-
 p,
 li {
   font-size: 18px;
@@ -109,6 +109,7 @@ header {
   flex-grow: 1;
   align-self: center;
   text-align: center;
+  color: #969696;
 }
 
 @keyframes running-header {
@@ -122,10 +123,13 @@ header {
   }
 }
 
-.name h1,
-h2 {
+.name h1 {
   font-family: 'Questrial', sans-serif;
-  color: var(--text-color);
+  color: #fff;
+}
+.name h2 {
+  font-family: 'Questrial', sans-serif;
+  color: #969696;
 }
 
 .name > h1 {
@@ -160,6 +164,9 @@ main {
   padding-left: 10px;
 }
 
+. .Years__me {
+}
+
 aside {
   width: 30%;
   padding: 20px;
@@ -169,11 +176,14 @@ aside {
 
 .about-me {
   margin: 15px 0;
+  font-family: 'Inter';
+  border-bottom: #2f80ed;
 }
 
-.about-me > p {
+.about-me p {
   margin: 15px 0;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+
   font-size: 20px;
 }
 
@@ -274,19 +284,19 @@ aside {
 }
 
 #js-skill {
-  width: 40%;
+  width: 70%;
 }
 
 #html-skill {
-  width: 70%;
+  width: 60%;
 }
 
 #css-skill {
-  width: 70%;
+  width: 90%;
 }
 
 #git-skill {
-  width: 60%;
+  width: 80%;
 }
 
 .scale-filling {
@@ -315,7 +325,7 @@ aside {
 
 .grid {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -503,7 +513,6 @@ footer {
 
   .section-header {
     justify-content: center;
-    color: #ffffff;
   }
 
   li {

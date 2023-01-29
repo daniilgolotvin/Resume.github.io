@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,7 +41,10 @@
         <header>
           <div class="name">
             <h1>Даниил Голотвин</h1>
-            <h2>Front-End Developer</h2>
+            <div class="years_nine">
+              <h2 class="Years__me">19</h2>
+              <h3>лет</h3>
+            </div>
           </div>
           <img src="./image/iam-0.png" alt="Моя фотография" class="profile-photo" />
         </header>
@@ -54,20 +57,33 @@
               </div>
               <div class="about-me">
                 <p>
-                  Начинающий фронтенд-разработчик. <br />
-                  В данный момент прохожу курсы от Яндекс.Практикум по направлению "Веб-разработка".
+                  🔹 Я&nbsp;начинающий front-end разработчик!<br />
+                  <br />
+                  Проходил обучение в&nbsp;ННГУ имени Лобачевского по&nbsp;направлению
+                  &laquo;Фундаментальная информатика&raquo;.
+                  <br />
+                  <br />
+                  В&nbsp;данный момент прохожу курсы от&nbsp;Яндекс.Практикум по&nbsp;направлению
+                  &laquo;Веб-разработчик&raquo;.
+                  <br />
+                  Имею опыт в&nbsp;создании телеграмм ботов и&nbsp;сайтов под заказ.<br />
+                  <br />
+                  🔹 Летом прошлого года участвовал в&nbsp;организации работы фудтрака
+                  &laquo;ВАНГОГ&raquo;.<br />
+                  Всего лишь за&nbsp;одну неделю смог обучиться всему необходимому.<br />
+                  В&nbsp;составе команды фудтраков принимал участие на&nbsp;уникальных фестивалях
+                  и&nbsp;съемках<br />
+                  <br />
+                  &laquo;VyksaFest&raquo; г.Выкса (лето, 2022).<br />
+                  <br />
+                  &laquo;Архстояние&raquo; д.Никола ленивец (август, 2022).<br />
+                  <br />
+                  🔹 Благодаря работе в&nbsp;общепите приобрел навыки коммуникабельности,<br />
+                  работы в&nbsp;команде,<br />
+                  общение с&nbsp;гостями,<br />
+                  решение конфликтных ситуаций;
+                  <br />
                 </p>
-                <p>
-                  Не закончил обучение в ННГУ имени Лобачевского на направлении "Фундаментальная
-                  информатика".
-                </p>
-                <p>
-                  Имел опыт работы в стритфуде. <br />
-                  Работал на фестивалях в г. Выкса (Выкса Фестиваль) и в д. Никола-Ленивец
-                  (Архстояние) .
-                </p>
-
-                <p>Умею работать в команде и быстро учиться.</p>
               </div>
             </section>
             <section id="education">
@@ -75,16 +91,16 @@
                 <h2>Образование</h2>
               </div>
               <ul class="section-list">
+                <li><h5>2021-2022</h5></li>
+                <li>
+                  <a class="section-link" href="http://www.itmm.unn.ru/">
+                    > ННГУ им. Лобачевского<br />
+                    факультет ИИТММ</a
+                  >
+                </li>
+                <li><h5>2022-2023</h5></li>
                 <li>
                   <a class="section-link" href="https://practicum.yandex.ru"> > Яндекс.Практикум</a>
-                </li>
-                <li>
-                  <a class="section-link" href="http://www.unn.ru/"> > ННГУ им. Лобачевского</a>
-                </li>
-                <li>
-                  <a class="section-link" href="https://www.youtube.com/@FreelancerLifeStyle">
-                    > Фрилансер по жизни
-                  </a>
                 </li>
               </ul>
             </section>
@@ -95,18 +111,9 @@
               <div class="grid">
                 <a class="grid-block" target="_blank" href="">
                   <figure>
-                    <img class="popa" src="./image/pages1.jpg" alt="Научиться учиться pr.1" />
-                    <figcaption>
-                      <div class="project-name">Научиться учиться pr.1</div>
-                      <div class="project-description">Мой первый проект<br />(HTML, CSS)</div>
-                    </figcaption>
-                  </figure>
-                </a>
-                <a class="grid-block" target="_blank" href="">
-                  <figure>
                     <img src="./image/pages2.jpg" alt="Научиться учиться pr.2" />
                     <figcaption>
-                      <div class="project-name">Научиться учиться pr.2</div>
+                      <div class="project-name">Научиться учиться</div>
                       <div class="project-description">Проект с анимацией<br />(HTML, CSS)</div>
                     </figcaption>
                   </figure>
@@ -129,76 +136,16 @@
                 <h2>Моменты с фестиваля</h2>
               </div>
               <div class="photo__grids">
-                <img class="photo__grid" src="./image/4grid.png" />
-                <img class="photo__grid" src="./image/grid.jpg" />
-                <img class="photo__grid" src="./image/photo_2023-01-28 02.29.31.jpeg" />
-                <img class="photo__grid" src="./image/photo_2023-01-28 02.30.08.jpeg" />
+                <img class="photo__grid" src="./image/4grid.png" alt="" />
+
+                <img class="photo__grid" src="./image/photo_2023-01-28 02.29.31.jpeg" alt="" />
+                <img class="photo__grid" src="./image/grid5.jpg" alt="" />
+                <img class="photo__grid" src="./image/photo_2023-01-28 02.30.08.jpeg" alt="" />
               </div>
             </section>
           </div>
 
           <aside>
-            <section id="contacts">
-              <div class="section-header section-header__blue">
-                <h3>Контакты</h3>
-              </div>
-              <ul class="aside-list contacts-list">
-                <li>
-                  <a class="link__list link__hover" href="https://t.me/gol_ot_vin"
-                    ><img class="list__icon" src="./image/telegram-minimal-seeklogo.com.svg" />
-                    @gol_ot_vin</a
-                  >
-                </li>
-                <li>
-                  <a class="link__hover" href="tel:+79615824741"
-                    ><img class="list__icon" src="./image/tele.svg" /> +7-961-582-47-41</a
-                  >
-                </li>
-                <li>
-                  <a class="link__hover" href="mailto:daniilgolotvin19@gmail.com">
-                    <img class="list__icon2" src="./image/gmail.svg" />
-                    daniilgolotvin19@gmail.com</a
-                  >
-                </li>
-                <li>
-                  <a class="link__hover" href="mailto:daniilgolotvin@yandex.ru"
-                    ><img class="list__icon2" src="./image/gmail.svg" /> daniilgolotvin@yandex.ru</a
-                  >
-                </li>
-                <li>Россия, Выкса.</li>
-              </ul>
-            </section>
-            <section id="hard-skills">
-              <div class="section-header section-header__blue">
-                <h3>Хард скиллы</h3>
-              </div>
-              <ul class="aside-list hard-skills-list">
-                <li>
-                  GIT
-                  <div class="scale">
-                    <span id="git-skill"><span class="scale-filling"></span></span>
-                  </div>
-                </li>
-                <li>
-                  HTML
-                  <div class="scale">
-                    <span id="html-skill"><span class="scale-filling"></span></span>
-                  </div>
-                </li>
-                <li>
-                  CSS
-                  <div class="scale">
-                    <span id="css-skill"><span class="scale-filling"></span></span>
-                  </div>
-                </li>
-                <li>
-                  JavaScript
-                  <div class="scale">
-                    <span id="js-skill"><span class="scale-filling"></span></span>
-                  </div>
-                </li>
-              </ul>
-            </section>
             <section id="soft-skill">
               <div class="section-header section-header__blue">
                 <h3>Софт скиллы</h3>
@@ -216,8 +163,74 @@
               </div>
               <div class="eng-lvl">
                 Предполагаемый уровень:
-                <div>A2-B1</div>
+                <div>A2</div>
               </div>
+            </section>
+            <section id="contacts">
+              <div class="section-header section-header__blue">
+                <h3>Контакты</h3>
+              </div>
+              <ul class="aside-list contacts-list">
+                <li>
+                  <a class="link__list link__hover" href="https://t.me/gol_ot_vin"
+                    ><img
+                      class="list__icon"
+                      src="./image/telegram-minimal-seeklogo.com.svg"
+                      alt=""
+                    />
+                    @gol_ot_vin</a
+                  >
+                </li>
+                <li>
+                  <a class="link__hover" href="tel:+79615824741"
+                    ><img class="list__icon" src="./image/tele.svg" alt="" /> +7-961-582-47-41</a
+                  >
+                </li>
+                <li>
+                  <a class="link__hover" href="mailto:daniilgolotvin19@gmail.com">
+                    <img class="list__icon2" src="./image/gmail.svg" alt="" />
+                    daniilgolotvin19@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a class="link__hover" href="mailto:daniilgolotvin@yandex.ru"
+                    ><img class="list__icon2" src="./image/gmail.svg" alt="" />
+                    daniilgolotvin@yandex.ru</a
+                  >
+                </li>
+                <li>Россия, Выкса.</li>
+              </ul>
+            </section>
+            <section id="hard-skills">
+              <div class="section-header section-header__blue">
+                <h3>Cтаты</h3>
+              </div>
+              <ul class="aside-list hard-skills-list">
+                <li>
+                  Интеллект
+                  <div class="scale">
+                    <span id="git-skill"><span class="scale-filling"></span></span>
+                  </div>
+                </li>
+                <li>
+                  Сила
+                  <div class="scale">
+                    <span id="html-skill"><span class="scale-filling"></span></span>
+                  </div>
+                </li>
+                <li>
+                  Удача
+                  <div class="scale">
+                    <span id="css-skill"><span class="scale-filling"></span></span>
+                  </div>
+                </li>
+                <li>
+                  Ловкость
+                  <div class="scale">
+                    <span id="js-skill"><span class="scale-filling"></span></span>
+                  </div>
+                </li>
+              </ul>
             </section>
           </aside>
         </main>
